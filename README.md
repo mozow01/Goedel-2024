@@ -14,7 +14,7 @@ A kurzus lényegében egy történetet mesél el arról, hogy a 20. század elej
 5. A klasszikus logika és paradoxonai
 6. Típuselmélet és induktív adattípusok
 7. Furcsa számok, a Peano aritmetikák konzisztenciafogalmai
-8. Rekurzó és félig eldönthetőség
+8. Rekurzió és félig eldönthetőség
 9. A Gödel-tétel bizonyítása
 10. A Gödel-tétel bizonyítása
 11. A Gödel-tétel bizonyítása
