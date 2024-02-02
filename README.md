@@ -1,6 +1,6 @@
 # Gödel 2024
 
-BMETE915042; Gödel tételkör, bizonyításelmélet;	Vizsga;	Algebra és Geometria Tanszék BME TTK MI
+BMETE915042; Gödel tételkör, bizonyításelmélet;	Vizsga;	3 kredit; Algebra és Geometria Tanszék BME TTK MI
 
 # Rövid beharangozó
 A kurzus lényegében egy történetet mesél el arról, hogy a 20. század elejének fordulatos matematikafilozófiai világában milyen filozófiai nézőpontok versengtek egymással és hogyan jutott holtpontra a versengés. Közben bebizonyítjuk a Gödel-féle első nemteljességi tételt és megértjük a jelentését és következményeit.
