@@ -21,4 +21,8 @@ A kurzus lényegében egy történetet mesél el arról, hogy a 20. század elej
 12. A Gödel- és a Church-tétel
 13. Automatikus és félautomatikus bizonyítás
 
+# Programok
+
+Coq: https://coq.inria.fr/
+
 	
