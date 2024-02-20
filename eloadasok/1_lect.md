@@ -10,7 +10,8 @@
 Peano-aritmetika: a természetes számok következő axiomatikus felépítése: 
 
 ````coq
-(* Ez az alábbi a PA-nak egy olyan implementációja, amelyben a nyelv nincs teljesen formalizálva, de az axiómák már újként "ráíródnak" a természetes számokra.*)
+(* Ez az alábbi a PA-nak egy olyan implementációja, amelyben a nyelv nincs teljesen formalizálva,
+ de az axiómák már újként "ráíródnak" a természetes számokra.*)
 
 
 Structure PA := mk_PA {
@@ -27,14 +28,16 @@ Structure PA := mk_PA {
 
   PA_6 : forall x y : nat, x * S y = x * y + x;
 
-  PA_7 : forall P : nat -> Prop, P 0 /\ (forall n : nat, P n -> P (S n) ) -> forall n : nat, P n;  
+  PA_7 : forall P : nat -> Prop, P 0 /\
+(forall n : nat, P n -> P (S n) )-> forall n : nat, P n;  
 
 }.
 
 Context (Ari : PA).
 
 
-(* Ebben a furcsa algebrában az axiómák alapján igazolni lehet más tételeket.*)
+(* Ebben a furcsa algebrában az axiómák alapján
+igazolni lehet más tételeket.*)
 
 
 Theorem zero_left_PA : forall x : nat, 0 + x = x.
@@ -63,7 +66,10 @@ Proof.
     reflexivity.
 Qed.
 
-(*Az elméleti számítástudományban nem ez PA természetes setupja, hanem egy komputációsan értelmes adatruktúra, ahol az adattípusra vonatkozó "axiómák" összhangban vannak azzal, ahogy az adatokon a függvények kiszámolódnak.*)
+(*Az elméleti számítástudományban nem ez PA természetes setupja,
+hanem egy komputációsan értelmes adatruktúra, ahol az adattípusra
+vonatkozó "axiómák" összhangban vannak azzal, ahogy az adatokon a
+függvények kiszámolódnak.*)
 
 Theorem zero_left_nat : forall x : nat, 0 + x = x.
 Proof.
