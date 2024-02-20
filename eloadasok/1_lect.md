@@ -91,6 +91,24 @@ R-nél bővebb algoritmikusan megfogalmazható eldöntési problémák halmaza a
 
 ### Ellentmondásmentesség
 
-Egy S logikai levezetési rendszer (formálisan, nyelvileg, betonbiztosan) _elletmondásmentes_ (ellentmondástalan, widerspruchsfreiheit), ha nincs olyan A mondat S nyelvében, amire S |- A **és** S |- ~A. Néha konzisztensnek nevezik, de ez utóbbi egy úgy halmazelméleti, modellelméleti fogalom. Ha tanulnánk modellelméletet, amit lehet, hogy egy picit tanulunk, akkor tudnak lenni teljességi tételek, ami azt mondják, hogy az ellentmondásmentesség ekvivalens a konzisztenciával. Mi alapvetően bizonyításelméletet, típuselméletet és kategóriaelméletet tanulunk. A Curry--Howard--Lambek-izomorfizmus szerint ez utóbbi három lényegében ugyanaz a matematikai keretrendszer. Ettől élesen elválik a modellemélet, ami a halmazelmélet egy része. 
+Egy S logikai levezetési rendszer (formálisan, nyelvileg, betonbiztosan) _elletmondásmentes_ (ellentmondástalan, widerspruchsfreiheit), ha nincs olyan A mondat S nyelvében, amire S |- A **és** S |- ~A. 
 
-A halmazelméletet sokszor ZFC-nek választják, **Z**ermelo-**F**raenkel (with the axiom of) **C**hoice set theory. 
+(Néha _konzisztensnek_ nevezik, de ez utóbbi egy úgy halmazelméleti, modellelméleti fogalom. Ha tanulnánk modellelméletet, amit lehet, hogy egy picit tanulunk, akkor tudnak lenni teljességi tételek, ami azt mondják, hogy az ellentmondásmentesség ekvivalens a konzisztenciával. Mi alapvetően bizonyításelméletet, típuselméletet és kategóriaelméletet tanulunk. A Curry--Howard--Lambek-izomorfizmus szerint ez utóbbi három lényegében ugyanaz a matematikai keretrendszer. Ettől élesen elválik a modellemélet, ami a halmazelmélet egy része. 
+
+A halmazelméletet sokszor _ZFC_-nek választják, **Z**ermelo-**F**raenkel (set theory with the axiom of) **C**hoice. Óriási koncepcionális különbség van a ZFC és a Curry--Howard--Lambek-izomorfizmus világ a között. Halmazba összegyűjteni szoktunk dolgokat, amelyek egy tulajdonságnak megfelelnek. A típus elemeit legyártjuk, felépítjük, megkonstruáljuk.)
+
+## Problémák az eldönthetetlen mondatok igazságértékével
+
+Egy olyan mondat, amire se K |- A, se K |- ~A nem teljesül, eldönthetetlen K-ban. Itt A tehát olyan eldöntendő kérdés, amire K nem tud válaszolni. De ha eldöntendő, akkor azért vagy igaz vagy hamis, nem?
+
+### Megfelelés a valóságnak
+
+G tartalmát tekinte olyan lesz, ami azt mondja: "ez a mondat nem levezethető". Mivel ez igaz, ezért G igaz. Egy mondat pontosan akkor igaz, ha a valóságban az van, amit mond. Ez az elv (korreszpondencia elv) a bivalencia elvével (egy mondat igaz vagy hamis, de sosem egyszerre) ellentmondást okoz: "ez a mondat hamis" (a hazug paradoxona).  
+
+### Episztemológiai modalitás
+
+Valami igaz, ha igazolhatóan igaz, a többi helyet valamilyen értelemben hamis vagy mert lehetetlen igazolni, vagy mert még nem igazolta senki.
+
+### Metafizikai igazolás
+
+
