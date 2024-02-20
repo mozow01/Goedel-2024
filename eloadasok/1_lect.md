@@ -7,7 +7,9 @@
 
 ## Fogalmak magyarázata
 
-Peano-aritmetika: a természetes számok következő axiomatikus felépítése: 
+### Peano-aritmetika
+
+A természetes számok következő axiomatikus felépítése: 
 
 ````coq
 (* Ez az alábbi a PA-nak egy olyan implementációja, amelyben a nyelv nincs teljesen formalizálva,
@@ -77,5 +79,18 @@ auto.
 Qed.
 ````
 
+PA lényegében az az elmélet, ami arra jó, amire a számelmélet (oszthatóság, prímszámok, egyértelmű prímfaktorizáció). Lényeges, hogy elsőrendű elmélet abban az értelemben, hogy csak tárgya (természetes számok) felett képes kvantifikálni. Azok a dolgok, amikről beszél számok és nem számok halmazai vagy függvényei. Körmönfont módon bizonyos részhalmazokról PA-ban lehet utalni, pl. egy diafantikus egyenlet megoldáshalmazáról (pl.: { (x,y,z) | 2x + 3y = 7z } számhármasok halmaza), de nem korlátlanul.
 
-````
+### Rekurzivitás
+
+Egy halmaz (a természetes számok egy részhalmaza) rekurzív, ha létezik olyan véges eljárás, amely véges időben eldönti, hogy bármely dolog benne van-e a halmazban vagy sem (az ilyen algoritmikus problémák halmaza az R bonyolultsági osztály, a legbővebb algoritmikus bonyolultsági osztály). Ha úgy tetszik f rekurzív számelméleti függvény (totálisan rekurzív), ha létezik olyan véges algoritmus, ami bármely értékét véges lépésben kiszámítja. Egy halmaz ilyen értelemben rekurzív, ha a karakterisztikus függvénye rekurzív. 
+
+Ennek egy spéci esete PR, a primitív rekurzív függvények halmaza. Ezek olyan függvények, amik esetén létezik olyan rekurzív függvény, amelyik minden elem esetén megmondja, hogy hány lépésben lehet kiszámítani a függvényt azon a helyen. Ez azért fontos osztály, mert ezek a bolodbiztosan kiszámítható függvények. Ezekről beszél az eredeti Gödel-cikk.
+
+R-nél bővebb algoritmikusan megfogalmazható eldöntési problémák halmaza a _félig eldönthető problémák._ Ezek olyan számelméleti függvényekkel azonosíthatók, amelyek nem mindenhol vannak értelmezve, de van egy eljárás, amely véges lépésben kiszámítha bármely értelmes értékét. 
+
+### Ellentmondásmentesség
+
+Egy S logikai levezetési rendszer (formálisan, nyelvileg, betonbiztosan) _elletmondásmentes_ (ellentmondástalan, widerspruchsfreiheit), ha nincs olyan A mondat S nyelvében, amire S |- A **és** S |- ~A. Néha konzisztensnek nevezik, de ez utóbbi egy úgy halmazelméleti, modellelméleti fogalom. Ha tanulnánk modellelméletet, amit lehet, hogy egy picit tanulunk, akkor tudnak lenni teljességi tételek, ami azt mondják, hogy az ellentmondásmentesség ekvivalens a konzisztenciával. Mi alapvetően bizonyításelméletet, típuselméletet és kategóriaelméletet tanulunk. A Curry--Howard--Lambek-izomorfizmus szerint ez utóbbi három lényegében ugyanaz a matematikai keretrendszer. Ettől élesen elválik a modellemélet, ami a halmazelmélet egy része. 
+
+A halmazelméletet sokszor ZFC-nek választják, **Z**ermelo-**F**raenkel (with the axiom of) **C**hoice set theory. 
