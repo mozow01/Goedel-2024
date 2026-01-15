@@ -3,7 +3,13 @@
 BMETE915042; Gödel tételkör, bizonyításelmélet;	Vizsga;	3 kredit; Algebra és Geometria Tanszék BME TTK MI
 
 # Rövid beharangozó
-A kurzus lényegében egy történetet mesél el arról, hogy a 20. század elejének fordulatos matematikafilozófiai világában milyen nézőpontok versengtek egymással és hogyan jutott holtpontra a versengés. Közben bebizonyítjuk a Gödel-féle első nemteljességi tételt és megértjük a jelentését és következményeit.
+A kurzus lényegében egy történetet mesél el arról a turbulens korról, ami az 1900-as évek elejétől kb. harminc éven át zajlott és amit a matematikatörténetben a matematika második megalapozási válságának neveznek. A kurzus végén kimondjuk és bizonyítjuk a tételt, de emellett megpróbáljuk összegyűjteni a legfontosabb logikai, matematikafilozófiai és számításelméleti vonatkozásait és a megalapozási válságra kifejtett hatásukat. 
+
+A naiv halmazelmélet ellentmondásai megteremtették az igényt ellentmondásmentes matematika felépítésére. Erre három válasz született: a brouweri intuicionizmus (a matematika a természetes számokból kiindulva, az emberi elme által végiggondolható módon felépíthető gondolatvilág), Russell logicizmusa (a matematikai fogalmak logikai fogalmak)a hilberti formalista felfogás és Himbert finitizmusa, amely egy ízig vérig matematuikus megoldása a problémának. 
+
+A kurzus során betekintést nyerünk mindhárom ideológiába és azokba a technikákba és problémákba, amiket ezek a kezdeményezések érintettek. Megismerkedünk a Hilbert-programmal, ami a matematika ellentmondásmentességének igazolását próbálta elérni, és amiről kiderül -- Gödel második nemteljességi tétele alapján --, hogy sikere kérdéses. 
+
+Példákon megnézzük, hogy Bertrand Russell logikafilozófiai gondolatai milyen lökéseket adtak a XX. századi **analitikus nyelvfilozófiának.** Illetve betekintünk abba, hogy a bizonyításelmélet stratégiái különösképpen Gerhard Gentzen természetes levezetési rendszereinek alapgondolata hogyan vált kiindulási alappá a **nyelvfilozófia használatelméleti megközelítésére** számára (a szavak jelentése használatukban rejlik).
 
 # Tematika
 
