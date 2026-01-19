@@ -5,7 +5,7 @@ BMETE915042; Gödel tételkör, bizonyításelmélet;	Vizsga;	3 kredit; Algebra 
 # Rövid beharangozó
 A kurzus lényegében egy történetet mesél el arról a turbulens korról, ami az 1900-as évek elejétől kb. harminc éven át zajlott és amit a matematikatörténetben a matematika második megalapozási válságának neveznek. A kurzus végén kimondjuk és bizonyítjuk a tételt, de emellett megpróbáljuk összegyűjteni a legfontosabb logikai, matematikafilozófiai és számításelméleti vonatkozásait és a megalapozási válságra kifejtett hatásukat. 
 
-A naiv halmazelmélet ellentmondásai megteremtették az igényt ellentmondásmentes matematika felépítésére. Erre három válasz született: a brouweri intuicionizmus (a matematika a természetes számokból kiindulva, az emberi elme által végiggondolható módon felépíthető gondolatvilág), Russell logicizmusa (a matematikai fogalmak logikai fogalmak)a hilberti formalista felfogás és Himbert finitizmusa, amely egy ízig vérig matematuikus megoldása a problémának. 
+A naiv halmazelmélet ellentmondásai megteremtették az igényt ellentmondásmentes matematika felépítésére. Erre három válasz született: a brouweri intuicionizmus (a matematika a természetes számokból kiindulva, az emberi elme által végiggondolható módon felépíthető gondolatvilág), Russell logicizmusa (a matematikai fogalmak logikai fogalmak) és Hilbert finitizmusa, amely egy ízig vérig matematikus megoldása a problémának. 
 
 A kurzus során betekintést nyerünk mindhárom ideológiába és azokba a technikákba és problémákba, amiket ezek a kezdeményezések érintettek. Megismerkedünk a Hilbert-programmal, ami a matematika ellentmondásmentességének igazolását próbálta elérni, és amiről kiderül -- Gödel második nemteljességi tétele alapján --, hogy sikere kérdéses. 
 
